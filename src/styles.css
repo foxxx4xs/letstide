@@ -1,0 +1,41 @@
+:root {
+  --green: #83b2da;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+body {
+  align-items: center;
+  background-color: var(--green);
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+}
+
+body::-webkit-scrollbar {
+  width: 12px; /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--green); /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.411); /* color of the scroll thumb */
+  border-radius: 20px; /* roundness of the scroll thumb */ /* creates padding around scroll thumb */
+}
+.element {
+  align-items: cen;
+  background-color: var(--green);
+  box-shadow: 12px 12px 16px 0 rgba(0, 0, 0, 0.25),
+    -8px -8px 12px 0 rgba(255, 255, 255, 0.3);
+  border-radius: 60px;
+  display: flex;
+  height: 200px;
+
+  justify-content: center;
+
+  width: 200px;
+}
